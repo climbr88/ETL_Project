@@ -1,5 +1,5 @@
-#ETL PROJECT
-<h2 align='left'> GROUP MEMBERS
+<h1 align='center'ETL PROJECT</h1>
+<h2 align='left'> GROUP MEMBERS</h2>
 
 
 Data Cleanup & Analysis
