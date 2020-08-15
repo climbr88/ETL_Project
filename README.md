@@ -4,11 +4,11 @@ Craig Washington
 Ryan Shahid
 Winnie Yim
 
-##Scope##
+Scope
 
 Our goal was to create database using an existing Kaggle data set for various wines and scraping data from a website to add additional information for user ratings.
 
-##Extract## 
+Extract
 
 For first data set Kaggle was used to extract a csv file with over 83000 rows of wine info.
 Data collected from this csv file contained wine brand, type of grape, and its geographical info of wine’s origins.
@@ -30,13 +30,13 @@ browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 After we fixed the infinite scroll problem, we were able to scrape the site for gather wine rating, number of reviews, brand and type of wine.
 
 
-##Transformation##
+Transformation
 
 Once Vivino was scraped we merged the wines brand and title into one column for the clean wine dataframe.
 
 For the Kaggle csv we dropped a few unneeded columns and renamed ones that we kept to better suit our dataframe.
 
-##Load##
+Load
 
 Finally, the two dataframes were merged and the final dataframe was exported to a mongoDB database.
 
