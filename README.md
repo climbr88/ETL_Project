@@ -32,5 +32,11 @@ Transformation
 
 Once Vivino was scraped we merged the wines brand and title into one column for the clean wine dataframe.
 
-For the Kaggle csv we drooped a few unneeded columns and renamed ones that we kept to better suit our dataframe.
+For the Kaggle csv we dropped a few unneeded columns and renamed ones that we kept to better suit our dataframe.
+
+Finally, the two dataframes were merged and the final dataframe was exported to a mongoDB database.
+
+![GitHub Logo](/images/wine_db.png)
+
+
 
